@@ -1,0 +1,9 @@
+proxy.conf.json
+
+{
+    "/*": {
+        "target": "localhost:3000",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
